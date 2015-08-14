@@ -15,13 +15,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let calcBrain = CalcBrain()
         
-        let areaOfMyCircle = CalcBrain().area(824)
-        let radiusOfMyCircle = CalcBrain().radius(areaOfMyCircle)
+        let areaOfMyCircle = calcBrain.area(824)
+        let radiusOfMyCircle = calcBrain.radius(areaOfMyCircle)
         
         self.infoLabel.text = String(radiusOfMyCircle)
-        
-        
+                
     }
 
     override func didReceiveMemoryWarning() {
