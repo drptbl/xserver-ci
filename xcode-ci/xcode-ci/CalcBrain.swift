@@ -16,11 +16,11 @@ class CalcBrain {
     }
     
     func area(radius: Double) -> Double {
-        return radius
+        return M_PI * radius * radius
     }
     
     func radius(area: Double) -> Double {
-        return area
+        return sqrt(area / M_PI)
     }
     
     func radiusUsingCircumference(circumference: Double) -> Double {
