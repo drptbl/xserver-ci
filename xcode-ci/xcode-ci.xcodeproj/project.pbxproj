@@ -13,6 +13,8 @@
 		1BDCDD9D1B7D697800B171C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDCDD9C1B7D697800B171C2 /* Assets.xcassets */; };
 		1BDCDDA01B7D697800B171C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDCDD9E1B7D697800B171C2 /* LaunchScreen.storyboard */; };
 		1BDCDDAB1B7D697900B171C2 /* xcode_ciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDCDDAA1B7D697900B171C2 /* xcode_ciTests.swift */; };
+		1BDCDDB61B7D6A5E00B171C2 /* CalcBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDCDDB51B7D6A5E00B171C2 /* CalcBrain.swift */; };
+		1BDCDDB71B7D6A5E00B171C2 /* CalcBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDCDDB51B7D6A5E00B171C2 /* CalcBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		1BDCDDA61B7D697900B171C2 /* xcode-ciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-ciTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDCDDAA1B7D697900B171C2 /* xcode_ciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcode_ciTests.swift; sourceTree = "<group>"; };
 		1BDCDDAC1B7D697900B171C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDCDDB51B7D6A5E00B171C2 /* CalcBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 			children = (
 				1BDCDD951B7D697800B171C2 /* AppDelegate.swift */,
 				1BDCDD971B7D697800B171C2 /* ViewController.swift */,
+				1BDCDDB51B7D6A5E00B171C2 /* CalcBrain.swift */,
 				1BDCDD991B7D697800B171C2 /* Main.storyboard */,
 				1BDCDD9C1B7D697800B171C2 /* Assets.xcassets */,
 				1BDCDD9E1B7D697800B171C2 /* LaunchScreen.storyboard */,
@@ -198,6 +202,7 @@
 			files = (
 				1BDCDD981B7D697800B171C2 /* ViewController.swift in Sources */,
 				1BDCDD961B7D697800B171C2 /* AppDelegate.swift in Sources */,
+				1BDCDDB61B7D6A5E00B171C2 /* CalcBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BDCDDAB1B7D697900B171C2 /* xcode_ciTests.swift in Sources */,
+				1BDCDDB71B7D6A5E00B171C2 /* CalcBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
