@@ -10,9 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var infoLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let areaOfMyCircle = CalcBrain().area(824)
+        let radiusOfMyCircle = CalcBrain().radius(areaOfMyCircle)
+        
+        self.infoLabel.text = String(radiusOfMyCircle)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
