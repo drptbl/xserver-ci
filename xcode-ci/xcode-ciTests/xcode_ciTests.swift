@@ -40,7 +40,7 @@ class xcode_ciTests: XCTestCase {
     
     func testRadiusUsingArea() {
         let area = 78.525
-        XCTAssertEqual(CalcBrain().area(area), sqrt(area/M_PI), "Radius from Area does not calculate correctly!")
+        XCTAssertEqual(CalcBrain().radius(area), sqrt(area/M_PI), "Radius from Area does not calculate correctly!")
     }
     
     func testRadiusUsingCircumference() {
